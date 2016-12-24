@@ -24,19 +24,25 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h2 {
-    font-family: 'helvetica','Arial', 'Sans-Serif';
-    font-size: 3.5em;
-    font-weight: 100
+    font-family: 'avenir next','helvetica','Arial', 'Sans-Serif';
+    font-size: 3.6em;
+    font-weight: 100;
 }
+
 p {
-    font-size: 1em;
-    line-height: 1em;
+    font-size: 0.95em;
+    line-height: 1.1em;
     color: #333;
     font-family: 'Helvetica','Arial', 'Sans-Serif';
+    font-weight: 300;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+}
+
+nav {
+    border-top: 1px solid #d5d5d5;
 }
 
 ul.posts { 
@@ -46,4 +52,16 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.bold {
+    font-weight: 400;
+}
+
+.button {
+    border-bottom: 1px solid #d5d5d5;
 }
